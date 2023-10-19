@@ -1,14 +1,10 @@
 import 'react-app-polyfill/ie11';
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
-import { PreviewLink } from '../src';
+import { MyAwesomeComponent } from '../src';
 
 const App = () => {
-  return (
-    <div>
-      <PreviewLink href="https://example.com/" />
-    </div>
-  );
+  return <MyAwesomeComponent />;
 };
 
 ReactDOM.render(<App />, document.getElementById('root'));
